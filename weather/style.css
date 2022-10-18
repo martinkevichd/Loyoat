@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.weather {
+    margin: 50px;
+}
+
+.weather .img {
+   position: relative;
+}
+
+.weather .img .caption {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+
+.weather .img .caption p {
+    font-size: 32px;
+    color: white;
+}
+
+.weather .footer {
+    width: 608px;
+    background-color: #2b323c;
+    margin-top: -4px;
+    display: flex;
+
+}
+
+.weather .footer .mon {
+    margin-top: 5px;
+    width: 294px;
+    margin-bottom: 5px;
+    background-color: #434a54;
+    text-align: center;
+}
+
+.weather .footer .mon .content {
+    margin-top: 10px;
+}
+
+.weather .footer .mon .container {
+    margin-bottom: 13px;
+}
+
+.weather .footer .mon .container span {
+    font-size: 42px;
+    color: white;
+}
+
+.weather .footer .mon .container img {
+    height: 40px;
+}
+
+
+.weather .footer .mon .data {
+    display: inline-block;
+    width: 120px;
+    height: 24px;
+    background-color: #2b323c;
+    border-radius: 3px;
+    margin-bottom: 25px;
+}
+
+.weather .footer .mon .data p{
+    color: #949fab;
+    text-align: center;
+}
+
+.weather .footer .wed,
+.weather .footer .sat,
+.weather .footer .sun {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.weather .footer .wed .data img,
+.weather .footer .sat .data img,
+.weather .footer .sun .data img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+} 
+
+.weather .footer .wed .data p,
+.weather .footer .sat .data p,
+.weather .footer .sun .data p {
+    color: white;
+    font-size: 26px;
+} 
+
+.weather .footer .wed {
+    width: 120px;
+    background-color: #48cfad;
+}
+
+.weather .footer .wed .data {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.weather .footer .wed .data .day {
+    width: 60px;
+    height: 20px;
+    margin-top: 6px;
+    border-radius: 10px;
+    background-color: #37bc9b ;
+}
+
+.weather .footer .wed .data .day p {
+    padding-top: 3px;
+    text-align: center;
+    color: #1d856b;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.weather .footer .sat {
+    width: 120px;
+    background-color: #5d9cec;
+}
+
+
+.weather .footer .sat .data {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.weather .footer .sat .data .day {
+    width: 60px;
+    height: 20px;
+    margin-top: 6px;
+    border-radius: 10px;
+    background-color: #4a89dc;
+}
+
+.weather .footer .sat .data .day p {
+    padding-top: 3px;
+    text-align: center;
+    color: #2b5ea2;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+.weather .footer .sun {
+    width: 120px;
+    background-color: #ed5565;
+}
+
+.weather .footer .sun .data {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.weather .footer .sun .data .day {
+    width: 60px;
+    height: 20px;
+    margin-top: 6px;
+    border-radius: 10px;
+    background-color: #da4453 ;
+}
+
+.weather .footer .sun .data .day p {
+    padding-top: 3px;
+    text-align: center;
+    color: #971c29;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+

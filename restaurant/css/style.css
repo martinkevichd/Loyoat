@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header .logo,
+.header .title,
+.header .contacts {
+    display: inline-block;
+    margin-left: 20%;
+    vertical-align: middle; 
+}
+
+.header .logo img {
+    width: 70px; 
+}
+
+.header .title {
+    font-size: 42px;
+    font-family: cursive;
+}
+
+.header .contacts h3 {
+    margin-bottom: 15px;
+}
+
+.header .contacts {
+    font-family: cursive;
+    line-height: 25px;
+}
+
+.nav {
+    background-color: black;
+    padding: 30px;
+}
+
+.nav .container {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 2px 20px;
+}
+
+.nav a:hover {
+    color: rgba(243, 161, 9, 0.658);
+}
+
+.post .banner {
+    background-color: black;
+    display: inline-block;
+}
+
+
+.post .banner .banner-post img {
+    vertical-align: middle;
+    max-width: 50%;
+}
+
+.post .banner .banner-post .offer {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    margin-left: 90px;
+}
+
+.post .banner .banner-post .offer h2{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.post .banner .banner-post .offer p{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.post .banner .banner-post .offer .btn {
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+.post .banner .banner-post .offer .btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.post .banner .banner-post .offer .btn button {
+    width: 180px;
+    height: 45px;
+    color: white;
+    background-color: rgba(243, 161, 9, 0.658);
+    border: 0;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.post .banner .banner-post .offer .btn button:hover {
+    background-color: rgba(243, 161, 9, 0.486);
+}
+
+
+
+
+.menu .about .story {
+    display: inline-block;
+    width:100% ;
+    margin-left:auto ;
+    margin-right: auto;
+}
+
+.menu .about .story img {
+    vertical-align: middle;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+.menu .about .story .text {
+    display: inline-block;
+    vertical-align: middle;
+    width: 45%;
+    padding-right: 150px;
+    margin-left: 50px;
+}
+
+.menu .about .story .text h2 {
+    font-size: 64px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(20, 18, 18, 0.89);
+   
+}
+
+.menu .about .story .text p {
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.836);
+    font-size: 32px;
+}
+
+.menu .about .story .text .a {
+    margin-top: 70px;
+    margin-left: 220px;
+    
+}
+
+.menu .about .story .text a {
+    width: 100px; 
+    text-transform: uppercase;
+    font-size: 46px;
+    color: rgba(243, 161, 9, 0.658);
+}
+ 
+
+
+.menu .about .menus {
+    display: inline-block;
+    width:100% ;
+    margin-left:auto ;
+    margin-right: auto;
+}
+
+.menu .about .menus img {
+    width: 551px;
+    vertical-align: middle;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-right: 150px;
+    margin-left: 50px;
+}
+
+
+.menu .about .menus .text {
+    display: inline-block;
+    vertical-align: middle;
+    width: 45%;
+    
+}
+
+.menu .about .menus .text h2 {
+    font-size: 64px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(20, 18, 18, 0.89);
+   
+}
+
+.menu .about .menus .text p {
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.836);
+    font-size: 32px;
+}
+
+.menu .about .menus .text .a {
+    margin-top: 70px;
+    margin-left: 230px;
+    
+}
+
+.menu .about .menus .text a {
+    width: 100px; 
+    text-transform: uppercase;
+    font-size: 46px;
+    color: rgba(243, 161, 9, 0.658);
+}
+
+.end{
+    background-color: black;
+}
+
+.end .logo,
+.end .description,
+.end .contacts {
+   
+    display: inline-block;
+    margin-left: 10%;
+    vertical-align: middle; 
+    margin-bottom:10px ;
+}
+
+.end .logo img {
+    width: 70px; 
+}
+
+.end .description {
+    font-size: 36px;
+    color: white;
+}
+
+.end .contacts h3 {
+    margin-bottom: 15px;
+}
+
+.end .contacts {
+    font-family: cursive;
+    line-height: 25px;
+    color: white;
+}
+
+/*About*/
+
+.main-content .text {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+ 
+.main-content .text p,
+.main-content .text li {
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.main-content .text li {
+    list-style: none;
+}
+
+.main-content .photo {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.main-content .photo img {
+    width:500px; 
+    padding :10px;
+}
+
+/* Меню*/
+
+.main .menu {
+    margin-left: 20px;
+}
+
+.main .menu h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 54px;
+    text-transform: uppercase;
+}
+
+.main .menu .item {
+    padding: 9px;
+    margin: 10px;
+    display: inline-block;
+    width: 20%;
+   margin-left: 20px;
+   margin-right: 30px;
+   border: 1px solid rgba(128, 128, 128, 0.548);
+}
+
+.main .menu .item img{
+    width: 300px;
+}
+
+.main .menu .item p{
+    text-align: center;
+    font-size: 22px;
+    color: rgba(243, 161, 9, 0.767);
+}
+
+/*Услуги*/
+.main .list {
+    margin-left: 150px;
+}
+
+.main .list h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 54px;
+}
+
+.main .list .item {
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    overflow: hidden;
+    width: 25%;
+   margin-left: 20px;
+   margin-right: 30px;
+   border: 1px solid rgba(32, 29, 29, 0.548);
+}
+
+.main .list .item img{
+    width: 350px;
+   margin-bottom: 10px;
+}
+
+.main .list .item .caption h3 {
+    color: rgba(17, 15, 15, 0.986);
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+
+.main .list .item .caption p {
+    color: rgb(78, 75, 75);
+    text-align: left;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.main-sail{
+    background-color: black;
+    color: white;
+    
+}
+
+
+.main-sail h2 {
+    margin-bottom: 15px;
+    font-size: 46px;
+    text-align: center;
+}
+
+.main-sail p{
+    line-height: 40px;
+    font-size: 25px;
+    margin-left: 80px;
+}
+
+/*callary*/
+
+.main-content .conteiner h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 54px;
+    text-transform: uppercase;
+}
+
+.main-content .conteiner .gallary {
+    padding: 20px 20px 20px 24px ;
+}
+
+.main-content .conteiner .gallary img {
+    width: 350px;
+    display: inline-block;
+    width: calc(25% - 20px - 4px );
+    margin: 10px;
+}
+
+
+
+/*contacts*/
+
+.section .container {
+    padding: 20px 20px 40px 64px ;
+}
+
+.section .container .restorant, 
+.section .container .iframe
+ {
+    display: inline-block;
+    width: calc(50% - 40px - 4px );
+    margin: 10px;   
+}
+
+.section .container .restorant Img {
+    margin-bottom: 20px;
+}
+
+.section .container .restorant div {
+    line-height: 30px;
+}
+
+.section .container .restorant div .h {
+    text-transform: uppercase;
+    color: rgba(17, 15, 15, 0.986);
+    font-size: 20px;
+}
+
+.section .container .restorant div .p {
+    margin-left: 20px;
+    color: rgb(78, 75, 75);
+    font-size: 18px;
+}
+
+
+
